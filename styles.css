@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: medium;
+  margin: auto;
+}
+
+#titulo {
+  width: fit-content;
+  margin: auto;
+  font-size: xx-large;
+}
+#subtitulo {
+  width: fit-content;
+  height: fit-content;
+  border-top: 3cm;
+  margin-left: 16%;
+  margin-right: auto;
+  font-size: larger;
+}
