@@ -4,12 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script></script>
     <title>Atv3 25/07</title>
   </head>
   <body>
     <h1>Torneio de Programação</h1>
     <h2>Cadastro abaixo:</h2>
-    <input type="text" name="Nome" id="01">
-    <input type="email" name="email" id="02">
+    <form id="01" name="formCadastro">
+      <div>
+        <label for="Nome">
+          <input
+            type="text"
+            name="Nome"
+            id="02"
+            placeholder="Digite o seu Nome"
+          />
+        </label>
+      </div>
+      <div>
+        <label for="Idade">
+          <input
+            type="number"
+            ame="Idade"
+            id="03"
+            placeholder="Digite sua Idade"
+          />
+        </label>
+      </div>
+      <input type="submit" value="Enviar Cadastro" />
+      <input type="reset" value="Restaurar Informações" />
+    </form>
   </body>
 </html>
