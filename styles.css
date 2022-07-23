@@ -13,10 +13,13 @@ body {
   font-size: xx-large;
 }
 #subtitulo {
+  margin: auto;
   width: fit-content;
-  height: fit-content;
-  border-top: 3cm;
-  margin-left: 16%;
   margin-right: auto;
   font-size: larger;
+}
+
+#cadastro {
+  margin: auto;
+  width: fit-content;
 }
