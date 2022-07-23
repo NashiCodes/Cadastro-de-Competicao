@@ -16,38 +16,28 @@
   <body>
     <h1 id="titulo">Torneio de Programação</h1>
     <h2 id="subtitulo">Cadastro abaixo:</h2>
-    <form id="cadastro" name="formCadastro">
+    <form id="form">
       <div>
         <label for="Nome">
-          <input
-            type="text"
-            name="Nome"
-            id="02"
-            placeholder="Digite o seu Nome"
-          />
+          <input type="text" id="nome" placeholder="Digite o seu Nome" />
         </label>
-      </div>
-      <div>
         <label for="Idade">
-          <input
-            type="number"
-            ame="Idade"
-            id="03"
-            placeholder="Digite sua Idade"
-          />
+          <input type="number" id="idade" placeholder="Digite sua Idade" />
         </label>
       </div>
       <h3>Qual o seu Nivel de Programação?</h3>
       <section id="niveis">
         <input type="checkbox" name="Junior" id="junior" />
-        <p>Junior</p>
+        <span>Junior</span>
         <input type="checkbox" name="Master" id="master" />
-        <p>Master</p>
+        <span>Master</span>
         <input type="checkbox" name="Senior" id="senior" />
-        <p>Sênior</p>
+        <span>Sênior</span>
       </section>
-      <input type="submit" value="Enviar Cadastro" />
-      <input type="reset" value="Restaurar Informações" />
+      <div>
+        <input type="submit" value="Enviar Cadastro" />
+        <input type="reset" value="Restaurar Informações" />
+      </div>
     </form>
   </body>
 </html>

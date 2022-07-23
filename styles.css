@@ -19,7 +19,11 @@ body {
   font-size: larger;
 }
 
-#cadastro {
+#form {
   margin: auto;
   width: fit-content;
+}
+
+#niveis {
+  display: inline;
 }
