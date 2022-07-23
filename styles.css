@@ -4,7 +4,32 @@
 body {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: medium;
-  margin: auto;
+  font-style: italic;
+  background-color:orange;
+}
+
+#barraEsq {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:indigo;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+#barraDir {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:indigo;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 #titulo {
