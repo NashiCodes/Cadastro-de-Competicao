@@ -58,6 +58,29 @@ ul {
   width: fit-content;
   display: inline-block;
 }
+#dvJunior {
+  margin-left: 10px;
+  padding:7px;
+  border: 4px solid indigo;
+  background-color: rgba(0, 100, 0, 0.45);
+  color:rgb(12, 49, 12);
+}
+
+#dvMaster {
+  margin-left: 10px;
+  padding:7px;
+  border: 4px solid indigo;
+  background-color: rgba(2, 2, 88, 0.4);
+  color:rgb(3, 3, 84);
+}
+
+#dvSenior {
+  margin-left: 10px;
+  padding:7px;
+  border: 4px solid indigo;
+  background-color: rgba(46, 2, 77, 0.493);
+  color:rgb(29, 0, 50);
+}
 
 .cadastrados {
   display: flex;
