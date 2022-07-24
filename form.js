@@ -1,7 +1,6 @@
 const nome = document.querySelector("#nome");
 const idade = document.querySelector("#idade");
 const enviar = document.querySelector("#enviar");
-const lista = document.querySelector(".cadastrados");
 const junior = document.querySelector("#ulJunior");
 const master = document.querySelector("#ulMaster");
 const senior = document.querySelector("#ulSenior");
@@ -11,7 +10,10 @@ enviar.addEventListener("click", submitListener);
 function submitListener(event) {
   event.preventDefault();
 
-  criaCadastro(nome, idade);
+  if (nome.value != "" && idade.value != "") {
+    criaCadastro(nome, idade);
+  }
+  window.alert("Campo de cadastro incompleto!!!");
 
   nome.value = "";
   idade.value = "";
