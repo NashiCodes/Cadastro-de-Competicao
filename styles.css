@@ -5,7 +5,7 @@ body {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: medium;
   font-style: italic;
-  background-color:orange;
+  background-color:rgb(210, 227, 244);
 }
 
 #barraEsq {
@@ -15,7 +15,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:indigo;
+  background-color: rgb(34, 4, 56);
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -27,7 +27,7 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color:indigo;
+  background-color: rgb(34, 4, 56);
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -35,10 +35,12 @@ body {
 #titulo {
   width: fit-content;
   margin: auto;
+  margin-top: 150px;
   font-size: xx-large;
 }
 #subtitulo {
   margin: auto;
+  margin-top: 5px;
   width: fit-content;
   margin-right: auto;
   font-size: larger;
@@ -46,9 +48,6 @@ body {
 
 #cadastro {
   margin: auto;
+  margin-top: 8px;
   width: fit-content;
-}
-
-#niveis {
-  display: inline;
 }
