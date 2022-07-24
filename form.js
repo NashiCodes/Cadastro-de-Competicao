@@ -1,20 +1,30 @@
-function criaCadastro(Nome, idade) {
-  if(idade<18){
-    const jr = document.createElement("li");
-    jr.textContent = `${Nome}, ${idade}`;
-    document.ulJunior.appendChild(jr);
-  }
-  if(idade>40){
+const nome = document.querySelector("#nome");
+const idade = document.querySelector("#idade");
+const enviar = document.querySelector("#enviar");
+const lista = document.querySelector(".cadastrados");
+const junior = document.querySelector("#ulJunior");
+const master = document.querySelector("#ulMaster");
+const senior = document.querySelector("#ulSenior");
+const item = document.createElement("li");
+item.textContent = `${nome.value}, ${idade.value}`;
 
-  }
-}
-document.cadastro.addEventListener("submit", submitListener);
+enviar.addEventListener("click", submitListener);
 
 function submitListener(event) {
   event.preventDefault();
-  criaCadastro(
-    document.cadastro.Nome.value,
-    Number(document.cadastro.idade.value)
-  )
-  document.cadastro.reset();
+
+  criaCadastro(nome, idade);
+
+  nome.value = "";
+  idade.value = "";
+}
+
+function criaCadastro(nome, idade) {
+  if (idade.value < 18) {
+    junior.appendChild(item);
+  }
+  if (idade.value > 40) {
+    senior.appendChild(item);
+  }
+  master.appendChild(item);
 }
