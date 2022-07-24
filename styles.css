@@ -77,13 +77,6 @@ input[type="number"] {
   font-style: italic;
 }
 
-#enviar {
-  cursor: pointer;
-}
-
-#reset {
-  cursor: pointer;
-}
 
 #dvJunior {
   background-color: rgba(0, 100, 0, 0.45);
@@ -98,7 +91,6 @@ input[type="number"] {
 #dvSenior {
   background-color: rgba(46, 2, 77, 0.493);
   color: rgb(29, 0, 50);
-
 }
 
 #barraEsq {
@@ -132,4 +124,16 @@ input[type="number"] {
   padding: 3px;
   border: 4px solid indigo;
   border-radius: 13px;
+}
+
+.botoes {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 64, 101);
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: medium;
+  font-style: italic;
+  width: 100px;
 }

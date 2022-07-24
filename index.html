@@ -18,7 +18,7 @@
     <h1 id="titulo">Torneio de Programação</h1>
     <h2 id="subtitulo">Cadastro abaixo:</h2>
     <section>
-      <div class="cadastro">
+      <form class="cadastro">
         <div id="entradas">
           <label for="nome">Nome:</label>
           <input type="text" id="nome" placeholder="Digite o seu Nome" />
@@ -27,9 +27,9 @@
           <input type="number" id="idade" placeholder="Digite sua Idade" />
         </div>
 
-        <div class="botoes">
-          <button id="enviar">Inscrever-se</button>
-          <input id="reset" type="reset" value="Resetar cadastro" />
+        <div>
+          <button class="botoes" id="enviar">Inscrever-se</button>
+          <input class="botoes" id="reset" type="reset" value="Resetar" />
         </div>
 
         <div class="cadastrados">
@@ -54,7 +54,7 @@
         </div>
           </div>
         </div>
-      </div>
+      </form>
 
       <div id="barraEsq"></div>
       <div id="barraDir"></div>
