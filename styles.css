@@ -5,31 +5,35 @@ body {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: medium;
   font-style: italic;
-  background-color: rgb(210, 227, 244);
+  background-color: rgb(17, 27, 36);
 }
 
-#barraEsq {
-  height: 100%;
-  width: 100px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(34, 4, 56);
-  overflow-x: hidden;
-  padding-top: 20px;
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+  justify-content: center;
 }
 
-#barraDir {
-  height: 100%;
-  width: 100px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: rgb(34, 4, 56);
-  overflow-x: hidden;
-  padding-top: 20px;
+.cadastro {
+  padding: 2%;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(241, 244, 246);
+  justify-content: center;
+  box-shadow: inset 1px 1px 10px rgba(44, 44, 44, 0.812);
+}
+
+.cadastrados {
+  margin: auto;
+  padding: 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #titulo {
@@ -37,22 +41,30 @@ body {
   margin: auto;
   margin-top: 150px;
   font-size: xx-large;
+  color: gainsboro;
 }
+
 #subtitulo {
   margin: auto;
   margin-top: 5px;
   width: fit-content;
   margin-right: auto;
   font-size: larger;
+  color: gainsboro;
 }
 
-.cadastro {
-  margin: auto;
-  padding: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#entradas {
+  height: 35px;
 }
+
+#enviar {
+  cursor: pointer;
+}
+
+#reset {
+  cursor: pointer;
+}
+
 #dvJunior {
   margin-left: 10px;
   padding: 7px;
@@ -80,23 +92,28 @@ body {
   display: flex;
 }
 
-#enviar{
-  cursor: pointer;
+#barraEsq {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(45, 57, 61, 0.2);
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 12px;
 }
 
-#reset{
-  cursor: pointer;
-}
-
-.cadastrados {
-  margin: auto;
-  padding: 20px;
-  width: fit-content;
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-}
-
-#entradas {
-  height: 35px;
+#barraDir {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(45, 57, 61,0.2);
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 12px;
 }
