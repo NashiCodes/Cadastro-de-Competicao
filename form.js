@@ -13,7 +13,8 @@ function submitListener(event) {
   if (nome.value != "" && idade.value != "") {
     criaCadastro(nome, idade);
   }
-  window.alert("Campo de cadastro incompleto!!!");
+  else
+    window.alert("Campo de cadastro incompleto!!!");
 
   nome.value = "";
   idade.value = "";
